@@ -16,6 +16,9 @@ function Header() {
           <li>
             <Link to="/contenidos">Contenidos</Link>
           </li>
+          <li>
+            <Link to="/contador">Contador</Link>
+          </li>
         </ul>
 
       </div>

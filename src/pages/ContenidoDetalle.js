@@ -12,7 +12,7 @@ function ContenidoDetalle(props) {
         setContentDetail(res.data.data);
       })
       .catch(err => console.log(err))
-  }, []);
+  }, [match.params.id]);
 
   return (
     <div className="detail">
